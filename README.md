@@ -1,4 +1,4 @@
-# Gatsby-base
+# monorepo-base
 
 [![Node.js CI (solution)](<https://github.com/mike-north/js-ts-monorepos/workflows/Node.js%20CI%20(solution)/badge.svg>)](https://github.com/mike-north/js-ts-monorepos/actions?query=workflow%3A%22Node.js+CI+%28solution%29%22)
 [![TypeScript@Next tests (solution)](<https://github.com/mike-north/js-ts-monorepos/workflows/TypeScript@Next%20tests%20(solution)/badge.svg>)](https://github.com/mike-north/js-ts-monorepos/actions?query=workflow%3A%22TypeScript%40Next+tests+%28solution%29%22)
@@ -14,7 +14,7 @@ ssh git@github.com
 and getting a response like
 
 ```sh
-Hi mike-north! You've successfully authenticated, but GitHub does not provide shell access.
+Hi user! You've successfully authenticated, but GitHub does not provide shell access.
 Connection to github.com closed.
 ```
 
@@ -29,13 +29,13 @@ Strongly recommended the use of [Visual Studio Code](https://code.visualstudio.c
 Next, checkout a working copy of this project
 
 ```sh
-git clone git@github.com:DavidNeiOs/gatsby-base
+git clone git@github.com:DavidNeiOs/monorepo-base
 ```
 
 enter the directory you just created
 
 ```sh
-cd gatsby-base
+cd monorepo-base
 ```
 
 ### Install dependencies
@@ -47,5 +47,3 @@ Install dependencies with yarn by running
 ```sh
 yarn
 ```
-
-### Starting the project
