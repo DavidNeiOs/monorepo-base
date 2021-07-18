@@ -14,7 +14,17 @@
     "@typescript-eslint/parser": "^4.28.3",
     "eslint": "^7.31.0",
     "lerna": "^4.0.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "scripty": "^2.0.0"
+  },
+  "scripty": {
+    "path": "./scripts/workspace"
+  },
+  "scripts": {
+    "build": "scripty",
+    "clean": "scripty",
+    "lint": "scripty",
+    "test": "scripty"
   },
   "volta": {
     "node": "14.17.3",
