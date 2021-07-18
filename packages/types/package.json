@@ -1,0 +1,21 @@
+{
+  "name": "@base/types",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "clean": "rimraf dist *.tsbuildconfig",
+    "test": "jest",
+    "build": "tsc -b ."
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "typescript": "^4.0.3"
+  }
+}
